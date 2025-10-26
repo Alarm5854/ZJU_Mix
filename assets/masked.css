@@ -1,0 +1,15 @@
+
+.masked-text {
+    color: black;
+    background-color: black;
+    border-radius: 3px;
+    padding: 0 4px;
+    transition: all 0.2s !important;
+    cursor: pointer;
+}
+.masked-text:hover {
+    color: var(--md-typeset-color, #000);
+    background-color: transparent;
+    transition: all 0.2s !important;
+}
+            
